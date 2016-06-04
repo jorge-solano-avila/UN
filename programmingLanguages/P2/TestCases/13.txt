@@ -1,0 +1,6 @@
+estructura Point
+	entero x;
+	entero y;
+	real a,b,c;
+	C c;
+fin_estructura

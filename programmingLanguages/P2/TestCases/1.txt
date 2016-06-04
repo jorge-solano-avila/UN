@@ -1,0 +1,3 @@
+funcion_principal
+// codigo de funcion principal
+fin_principal

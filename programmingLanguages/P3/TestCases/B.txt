@@ -1,0 +1,21 @@
+funcion_principal
+    entero anio;
+    anio = 2000;
+    
+    si (anio <= 0) entonces
+        imprimir("error");
+    fin_si
+
+    si ( anio % 4==0 && anio > 0) entonces
+        si ( anio%400==0 ) entonces
+             imprimir( "es biciestro" );
+        si_no
+             imprimir( "no es biciestro" );
+        fin_si
+    si_no
+        imprimir( "no es biciestro" );
+    fin_si
+    entero b = anio*2 + (8/4)%3;
+    imprimir (b);
+         
+fin_principal

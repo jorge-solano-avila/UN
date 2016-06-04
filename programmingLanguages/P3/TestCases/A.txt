@@ -1,0 +1,7 @@
+funcion_principal
+    cadena a = "hola";
+    entero b = 5;
+    real c = 15.2;
+    caracter d = 'z';
+    imprimir (a," ",b," ",c," ",d);
+fin_principal

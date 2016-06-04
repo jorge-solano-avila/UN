@@ -1,0 +1,10 @@
+funcion entero sum(entero a, entero b) hacer
+    entero tmp = 1;
+    retornar a + b;
+fin_funcion
+
+funcion_principal
+
+    imprimir(tmp);
+
+fin_principal

@@ -1,0 +1,12 @@
+funcion_principal
+	entero a;
+	real x,y=0,z;
+	entero a;
+	a = 3* (5) / b;
+	a = a + 1 ;
+	a = x;c = 1
+	b = "lenguajes de programacion";
+	entero a;
+	leer ( a );
+	imprimir ( " variable ", a );
+fin_principal

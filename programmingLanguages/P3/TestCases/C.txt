@@ -1,0 +1,26 @@
+funcion_principal
+    entero numero, i=2 ;
+    booleano primo=verdadero ;
+    numero = 17;
+    
+    mientras ( (i<numero) && (primo==verdadero)  ) hacer 
+        si ( numero % i == 0 ) entonces             
+            primo = falso;
+        si_no
+            i=i+1;
+        fin_si
+    fin_mientras
+
+    para ( entero k = 2 ; k < numero ; 1 ) hacer
+    
+    si ( numero % k == 0 ) entonces             
+            primo = falso;
+        fin_si
+    fin_para
+
+    si ( primo == verdadero ) entonces   
+       imprimir(numero, " es primo");
+    si_no    
+       imprimir(numero, " no es primo");
+    fin_si
+fin_principal

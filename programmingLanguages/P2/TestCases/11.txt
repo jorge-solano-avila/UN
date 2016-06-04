@@ -1,0 +1,10 @@
+/* esto no debe
+	importar, pero cuenta las lineas
+*/
+funcion_principal
+	sum(15, 52);
+fin_principal
+funcion entero sum(entero a, entero b) hacer
+	retornar a + b;
+	// fin
+fin_funcion

@@ -1,0 +1,4 @@
+funcion_principal
+	leer ( a );
+	leer ( a,b ); //error
+fin_principal
